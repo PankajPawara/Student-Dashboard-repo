@@ -14,7 +14,8 @@ A fully functional student management dashboard built using **React.js**, **Tail
 
 ## 📸 Screenshot
 
-![Student Dashboard Screenshot](https://github.com/your-username/student-dashboard/assets/sample.png)
+![Student Dashboard Screenshot](<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d9b4a913-b57b-4a22-bede-46d7fefee826" />
+)
 
 ---
 
