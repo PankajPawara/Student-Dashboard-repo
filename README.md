@@ -1,12 +1,36 @@
-# React + Vite
+# 🧑‍🎓 Student Dashboard - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional student management dashboard built using **React.js**, **Tailwind CSS**, and **ShadCN UI**. The application allows users to **add**, **edit**, **delete**, **search**, and **sort** students. It also supports **image upload and preview**, with persistent data storage using **localStorage**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📋 Add new student with full details (name, roll number, email, course, photo)
+- ✏️ Edit existing student data with real-time preview
+- 🗑️ Delete students with confirmation dialog
+- 🔍 Search students by name, email, or course
+- ⬆️ Sort students by name, course, or serial number
+- 🖼️ Image upload and preview for profile pictures
+- 💾 Data is saved in localStorage to persist across page refreshes
 
-## Expanding the ESLint configuration
+## 📸 Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Student Dashboard Screenshot](https://github.com/your-username/student-dashboard/assets/sample.png)
+
+---
+
+## 📁 Project Structure
+
+```bash
+StudentDashboard/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   └── ui/                  # UI Components from ShadCN
+│   ├── App.jsx                  # Main app logic and layout
+│   ├── App.css                  # Custom styling
+│   ├── main.jsx                 # Entry point
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
